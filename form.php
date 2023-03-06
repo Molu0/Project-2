@@ -5,7 +5,7 @@ $email = $_POST['email'];
 $password = password_hash($_POST['password'], PASSWORD_DEFAULT);
 
 // Connect to the database
-$host = '127.0.0.1:3306';
+$host = '127.0.0.1:';
 $user = 'root';
 $pass = 'sql@molu123';
 $db = 'database_name';
