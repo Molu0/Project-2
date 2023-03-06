@@ -19,19 +19,19 @@
 <body>
   <a href="index.html"><button style="border: red 10px solid; font-size: 25px; background-color: black; color: white; " >Go Back</button></a>
 <div style="text-align: center;">
-  <form action="" target="_self" >
-    <h1>Email</h1><br>
-    <input type="email" name="" id="">
-    <h1>Number</h1><br>
-    <input type="number" name="" id="">
-    <h1>Company Name</h1><br>
-    <input type="text" name="" id="">
-    <h1>Your Name</h1><br>
-    <input type="text" name="" id="">
-    <h1>Any More Requirment</h1>
-    <textarea name="" id="" cols="30" rows="10"></textarea>
-    <input type="submit" value="" placeholder="submit" >
-  </form>
+    <h2>User Registration</h2>
+    <form action="form.php" method="post">
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username"><br><br>
+  
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email"><br><br>
+  
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password"><br><br>
+  
+      <input type="submit" value="form">
+    </form>
 </div>
 </body>
 </html>
