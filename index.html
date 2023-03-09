@@ -8,18 +8,17 @@
 </head>
 <body>
 
-  <nav style="background-color: red; display: inline-block; color: white;" >
-    <img src="1.png" alt="Avatar" class="avatar">
-    <h1 style="display: inline-block;">MyWebsite</h1>
+  <nav   >
+<div>    <img src="1.png" alt="Avatar" class="avatar">
+  <h1 >MyWebsite</h1></div>
 
 
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <a href="index.html" ><button id="btn" >Home</button></a>
+
+<div>    <a href="index.html" ><button id="btn" >Home</button></a>
     
 
-    <a href="contact.html"  ><button    id="btn" >Contact Us For Website Building</button></a>
-    <a href="Whyus.html"><button   id="btn" > Pricing </button></a>
+  <a href="contact.html"  ><button    id="btn" >Contact Us For Website Building</button></a>
+  <a href="Whyus.html"><button   id="btn" > Pricing </button></a></div>
   </nav>
   
 <header id="one" style="color: antiquewhite; background-color: rgb(100, 100, 231); border: red 10px solid; ">
@@ -75,27 +74,7 @@
     <span class="dot"></span> 
   </div>
   
-  <script>
-  let slideIndex = 0;
-  showSlides();
-  
-  function showSlides() {
-    let i;
-    let slides = document.getElementsByClassName("mySlides");
-    let dots = document.getElementsByClassName("dot");
-    for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";  
-    }
-    slideIndex++;
-    if (slideIndex > slides.length) {slideIndex = 1}    
-    for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-    }
-    slides[slideIndex-1].style.display = "block";  
-    dots[slideIndex-1].className += " active";
-    setTimeout(showSlides, 2000); // Change image every 2 seconds
-  }
-  </script>
+
 </div>
 <hr style="background-color: rgb(100, 100, 231); height: 15px; " >
 <div style="background-color: rgb(100, 100, 231); border: red 10px solid; ">
@@ -149,40 +128,40 @@ anything you want to change please contact me  </p>
 </span> 
 </div>
 <footer>
+  <div><p style="color: beige; font-size: 25px; " >We Also Provide Coding Lessons for free from CodeWithHarry </p>
+
+    <h1>Languages Like</h1>
+    <ol>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScipt</li>
+      <li>Python</li>
+      <li>And More</li>
+    </ol>
+    <p>To Know More Visit This Page</p>
+    <a href="https://molu0.github.io/Learn/"><button id="btn" style="border: red 5px solid; font-size: 25px; " >Learn</button></a></div> 
   
+  
+  <div> 
+     <h1>To Know More Contact Us At</h1>
+    <h1>dhananiakrishiv@gmail.com</h1>
+    <h1>Follow Us At</h1>
+    <Ol style="display: inline-block;"  >
+      <li id="btn" ><a href="https://github.com/Molu0"><button id="btn" >Github</button></a></li>
+      <li id="btn" >Linkedin</li>
+      <li id="btn" >Twitter</li>
+      <li id="btn" >Facebook</li>
+      <li id="btn" >Youtube</li>
+      
+    </Ol></div>
 </footer>
-<p style="color: beige; font-size: 25px; " >We Also Provide Coding Lessons for free from CodeWithHarry </p>
 
-<h1>Languages Like</h1>
-<ol>
-  <li>HTML</li>
-  <li>CSS</li>
-  <li>JavaScipt</li>
-  <li>Python</li>
-  <li>And More</li>
-</ol>
-<p>To Know More Visit This Page</p>
-<a href="https://molu0.github.io/Learn/"><button id="btn" style="border: red 5px solid; font-size: 25px; " >Learn</button></a> 
-<br>
-<br>
 
-<span  >
-  <h1>To Know More Contact Us At</h1>
-  <h1>dhananiakrishiv@gmail.com</h1>
-  <h1>Follow Us At</h1>
-  <Ol style="display: inline-block;"  >
-    <li id="btn" ><a href="https://github.com/Molu0"><button id="btn" >Github</button></a></li>
-    <li id="btn" >Linkedin</li>
-    <li id="btn" >Twitter</li>
-    <li id="btn" >Facebook</li>
-    <li id="btn" >Youtube</li>
-    
-  </Ol>
-</span>
+
 
 <div>
 
-  <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups"  >
+  <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups" style="text-align: center;" >
     <div class="btn-group me-2" role="group" aria-label="First group">
 <a href="index.html"><button type="button" class="btn btn-primary">1</button></a>      
 <a href="Contact.html"><button type="button" class="btn btn-primary">2</button></a>      
@@ -192,15 +171,31 @@ anything you want to change please contact me  </p>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 <script>
-var typed = new Typed('.autotype', {
+  let slideIndex = 0;
+  showSlides();
+  
+  function showSlides() {
+    let i;
+    let slides = document.getElementsByClassName("mySlides");
+    let dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 2000); // Change image every 2 seconds
+  }
+  var typed = new Typed('.autotype', {
 strings: [ "Faltu" , "UI Design" , "Backended Developing" , "Frontended Developing" , "Website Building" , "Creative Design" , "Mobile App Building" ,"Photography" , "VideoGraphy"  ],
 typeSpeed: 30 ,
 backSpeed: 30 ,
 loop: true
 });
-
-   
-</script>
-
+  </script>
 </body>
 </html> 
