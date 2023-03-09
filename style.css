@@ -1,3 +1,12 @@
+body{
+      font-style: italic;
+    font-weight: bolder;
+}
+body button{
+  font-style: italic;
+  font-weight: bolder;
+}
+
 * {box-sizing: border-box;}
 body {font-family: Verdana, sans-serif;}
 .mySlides {display: none;}
@@ -79,10 +88,7 @@ h1{
   background-color: black;
  
 }
-#done:hover{
-background-color: yellow;
 
-}
 *{
   color: antiquewhite;
   
@@ -119,4 +125,39 @@ background-color: yellow;
     background-color: yellow;
     color: black;
 
+    }
+    nav button{
+      background-color: black; 
+      color: white; 
+      font-size: 20px;
+      transition-property: background-color ;
+      
+      transition-duration: 1s;
+      transition-timing-function:ease-in-out ;
+
+
+    
+    }
+    nav button:hover{
+      background-color: yellow;
+      color: black;
+  
+      }
+    nav{
+      background-color: red;
+       display: inline-block; 
+       color: white;
+       border-radius: 30px;
+       width: 100%;
+    }
+    nav h1{
+      display:inline-block
+    }
+    nav div{
+      display:inline-block;
+    } 
+    footer div{
+display: inline-block;
+      width: 800px;
+      border-bottom: 5px red solid;
     }
