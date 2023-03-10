@@ -148,7 +148,7 @@ h1{
       background-color: red;
        display: inline-block; 
        color: white;
-       border-radius: 30px;
+    
        width: 100%;
     }
     nav h1{
@@ -159,7 +159,7 @@ h1{
     } 
     footer div{
 display: inline-block;
-      width: 800px;
+      width:50%;
 
     }
     .btn-toolbar{
@@ -171,4 +171,4 @@ display: inline-block;
    color: black;
    background-color: rgb(49, 49, 255);
    font-size: 25px;
-    }
+    }as
